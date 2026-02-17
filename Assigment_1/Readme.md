@@ -1,4 +1,4 @@
-#Speech-to-Image Pipeline (Fully Local)
+# Speech-to-Image Pipeline (Fully Local)
 
 This project records your voice, converts speech to text using **Whisper**, transforms that text into a **Stable Diffusion image prompt using a local LLM (Ollama)**, and finally generates an image using **Stable Diffusion**. We have a system propmt to llm     system_prompt = (
         "Convert the user text into ONE Stable Diffusion prompt.\n"
